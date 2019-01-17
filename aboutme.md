@@ -1,16 +1,31 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: “I have a million ideas. They all point to certain death.” - Marvin
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am an undergrad student at Shiv Nadar University, currently pursuing my major in Electronics and Communication. I'm obessed with technology, ever since I was a kid. I grew up in a family of engineers, with the environment always conducive to building big or small projects and thinking about and sharing new ideas.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I keep myself busy by involving myself in some technological challenge or another. Over the years, I have developed keen interest in Machine Learning and am enamored with the potential of ML and DL to solve multitude of problems. (and hence a lot of my blogs would be my experiecne and explorations in the field). I am an avid musician. I play the piano and love to improvise and compose my own music. 
 
-What else do you need?
+I am also deeply interested in exploring ways to tackle the SDGs using technology. I believe that technology has the potential to solve all the major social and ecological problems that exist in the world, and I strive to find it. 
 
-### my history
+### Interests
+- Machine Learning
+- DLT
+- Robotics
+- IoT
+- EDA
+- Cybersecurity
+- Human Cognition
+- Technology Entrepreneurship
+- Sustainable Development
+- Music Composition
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+So stay tuned for my magical journey through the oceans of machine learning, music and technology innovation in general. I hope to share my experiences, projects and ideas. Sometimes, they might just be monologues of my take in the philosophy of life (if you'd go for that sort of thing :P)
+
+"So long! And thanks for all the fish!"
+
+What else do you need? The answer to life, universe and everything is 42.14378291...
+
+
