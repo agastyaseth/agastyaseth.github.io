@@ -2,8 +2,8 @@
 layout: post
 title: Word Predictor Using RNN
 subtitle: Implementing RNN Using Only Numpy
-bigimg: /img/path.jpg
-tags: [books, test]
+bigimg: /img/rnn.jpg
+tags: [machine learning, numpy, RNN]
 ---
 
 
