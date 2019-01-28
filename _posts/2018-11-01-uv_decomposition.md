@@ -1,5 +1,9 @@
 ---
-published: true
+layout: post
+title: UV Decomposition
+subtitle: Implementing UV Decomposition on iPython Notebook
+bigimg: /img/path.jpg
+tags: [data mining, course assignment]
 ---
 
 # UV Decomposition Example
