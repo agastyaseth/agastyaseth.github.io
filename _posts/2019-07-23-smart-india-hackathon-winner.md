@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: Smart India Hackathon - Winner
+date: '2019-07-12'
+image: img/download (1).png
 ---
 ## Tata Motors: Intelligent trip management for electric vehicles - SIH Hardware 2019
 
