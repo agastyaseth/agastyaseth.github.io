@@ -34,4 +34,7 @@ More pertinent to buses and public transport, we also implemented an occupancy d
 
 Lastly, in case the vehicle still fails to make the trip, we used Google Maps API to recursively route the driver through optimal charging points to help him plan longer trips.
 
-GitHub: https://github.com/agastyaseth/Moonshot
+[GitHub](https://github.com/agastyaseth/Moonshot)
+
+
+[SNU Press Release](https://snu.edu.in/news/newsroom/snu-shines-smart)
