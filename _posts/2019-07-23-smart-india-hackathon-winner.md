@@ -33,3 +33,5 @@ For point two, we found literature to corroborate that most of the auxiliary pow
 More pertinent to buses and public transport, we also implemented an occupancy detector using deep learning models to dynamically tune the parameters like AC and lighting, depending on the occupancy of the bus.
 
 Lastly, in case the vehicle still fails to make the trip, we used Google Maps API to recursively route the driver through optimal charging points to help him plan longer trips.
+
+GitHub: https://github.com/agastyaseth/Moonshot
