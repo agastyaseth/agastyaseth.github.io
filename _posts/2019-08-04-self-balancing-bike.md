@@ -50,3 +50,8 @@ We were unable to get the XBee to wirelessly transmit joystick coordinates to th
 ## References
 [http://students.iitk.ac.in/projects/roboticsclub\_selfbalance](http://students.iitk.ac.in/projects/roboticsclub\_selfbalance)
 [http://iedprojects2015.blogspot.com/2015/03/self-balancing.html](http://iedprojects2015.blogspot.com/2015/03/self-balancing.html)
+
+### Download PDF
+
+[Embedded Project Report]({{site.baseurl}}/Embedded_Report.pdf)
+
