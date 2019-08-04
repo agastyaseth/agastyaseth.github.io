@@ -48,7 +48,5 @@ We were successfully able to showcase the tilt resolving function of our bike. T
 We were unable to get the XBee to wirelessly transmit joystick coordinates to the STM board. We had tested this functionality in the past, but due to some error in the configuration side of things in the XCTU software, the XBee pair was working anomalously. We, therefore pivoted to connect the joystick directly as an ADC input to the STM board. This didn't really compromise on the functionality of our bike as it was anyway being controlled tethered to the STM board on the table.
 
 ## References
-http://students.iitk.ac.in/projects/roboticsclub\_selfbalance\\
-http://iedprojects2015.blogspot.com/2015/03/self-balancing.html
-
-
+[http://students.iitk.ac.in/projects/roboticsclub\_selfbalance](http://students.iitk.ac.in/projects/roboticsclub\_selfbalance)
+[http://iedprojects2015.blogspot.com/2015/03/self-balancing.html](http://iedprojects2015.blogspot.com/2015/03/self-balancing.html)
