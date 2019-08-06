@@ -1,9 +1,15 @@
 ---
 layout: post
-published: false
-title: >-
+published: true
+title: Working on Li-Fi
+subtitle: >-
   IEEE 802.15.7 Visible Light Communication: Modulation Schemes and Dimming
-  Support
+  Support | Digital Communication Project
+date: '2019-04-30'
+bigimg: /img/lifi.jpg
+tags:
+  - Course Project
+  - Digital Communication
 ---
 ---
 title: "Creation of a Landscape: The Logic or Urbanization in the PRC"
