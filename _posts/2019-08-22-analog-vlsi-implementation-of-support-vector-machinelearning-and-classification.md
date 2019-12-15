@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: >-
-  Analog VLSI implementation of Support Vector MachineLearning and
+  Analog VLSI implementation of Support Vector Machine Learning and
   Classification
 subtitle: VLSI Course Project
 date: '2019-04-31'
