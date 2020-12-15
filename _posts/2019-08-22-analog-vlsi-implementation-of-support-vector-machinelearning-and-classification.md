@@ -11,4 +11,4 @@ tags:
   - Course Project
   - VLSI Design
 ---
-<iframe src="http://agastyaseth.tech/Documents/VLSI_project.pdf" width="100%" height="400"></iframe>
+<iframe src="http://agastyaseth.me/Documents/VLSI_project.pdf" width="100%" height="400"></iframe>
