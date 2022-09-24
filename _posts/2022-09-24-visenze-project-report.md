@@ -10,4 +10,4 @@ tags:
     Data Science - Visual Search - CNN - Image Classification - Image
     Segmentation
 ---
-<iframe src="http://agastyaseth.wiki/visenze-report.pdf" width="100%" height="400"></iframe>
+<iframe src="http://agastyaseth.wiki/visenze_report.pdf" width="100%" height="400"></iframe>
