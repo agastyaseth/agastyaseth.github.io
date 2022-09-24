@@ -9,4 +9,4 @@ tags:
     Melanoma - Skin Cancer - MultiResUnet - Skin Segmentation - Image
     Classification
 ---
-<iframe src="http://agastyaseth.me/Documents/Skinet.pdf" width="100%" height="400"></iframe>
+<iframe src="http://agastyaseth.wiki/Documents/Skinet.pdf" width="100%" height="400"></iframe>
