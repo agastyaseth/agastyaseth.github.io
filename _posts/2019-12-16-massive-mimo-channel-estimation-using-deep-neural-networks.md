@@ -11,4 +11,7 @@ tags:
   - Autoencoders
   - Deep Image Prior
 ---
-<iframe src="http://agastyaseth.wiki/Documents/thesis_2.pdf" width="100%" height="700"></iframe>
+
+<embed src="http://agastyaseth.wiki/Documents/thesis_2.pdf" width="100%" height="800" 
+ type="application/pdf">
+
