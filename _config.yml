@@ -6,7 +6,7 @@
 
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "http://agastyaseth.wiki"
+url: "https://agastyaseth.wiki"
 baseurl: "/"
 
 # If you are building a GitHub project page then use these settings:
@@ -27,7 +27,7 @@ description: Don't Panic!
 navbar-links:
   
   Projects:
-    - Coursework: "http://github.com/agastyaseth/BDA492"
+    - Coursework: "https://github.com/agastyaseth/BDA492"
   Blog: "blog"
   Resume: "resume.pdf"
   CV: "CV.pdf"
