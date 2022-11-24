@@ -26,11 +26,13 @@ description: Don't Panic!
 # List of links in the navigation bar
 navbar-links:
   
-  Projects:
-    - Coursework: "https://github.com/agastyaseth/BDA492"
+  Ongoing Projects:
+    - LiqVid <> SNU AES Project: "https://agastyaseth.wiki/2022-02-18-liqvid-snu-two-stage-automated-essay-scoring-aes/"
+    - Bhashini Initiative: "https://agastyaseth.wiki/2022-10-12-contributing-to-the-bhashini-initiative/"
+#     - Big Data Coursework: "https://github.com/agastyaseth/BDA492"
   Blog: "blog"
   Resume: "resume.pdf"
-  CV: "CV.pdf"
+#   CV: "CV.pdf"
   About Me: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
