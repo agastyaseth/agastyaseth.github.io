@@ -12,6 +12,6 @@ tags:
   - Deep Image Prior
 ---
 
-<embed src="http://agastyaseth.wiki/Documents/thesis_2.pdf" width="100%" height="800" 
+<embed src="https://agastyaseth.wiki/Documents/thesis_2.pdf" width="100%" height="800" 
  type="application/pdf">
 
