@@ -4,35 +4,39 @@ title: About me
 subtitle: “I have a million ideas. They all point to certain death.” - Marvin
 ---
 
-I am an undergrad student at Shiv Nadar University, currently pursuing my major in Electronics and Communication. I'm obessed with technology, ever since I was a kid. I grew up in a family of engineers, with the environment always conducive to building big or small projects and thinking about and sharing new ideas.
+Greetings! I'm Agastya Seth, a graduate student at Arizona State University, where I'm delving deeper into the realms of Computer Science with a focus on Natural Language Processing and AGI. My journey in technology, rooted in a family of engineers, has evolved from an undergrad in Electronics and Communication at Shiv Nadar University to a more specialized path in data science and AI.
 
-I keep myself busy by involving myself in some technological challenge or another. Through my undergrad years, I have developed keen interest in Machine Learning and am enamored with the potential of ML and DL to solve multitude of problems. With my background in engineering and math, and experience and hands-on knowledge in EDA and Data Science & AI, I seek to innovate on creating AI interventions for embedded hardware and beyond! (and hence a lot of my blogs would be my experiecnes and explorations in the field). 
+My obsession with technology, kindled since childhood, continues to grow. I now find myself at the intersection of advanced software engineering and innovative research. At the CogInt NLP Lab, under Prof. Baral's guidance, I've explored the frontiers of AI, working on projects like 'RL for Reasoning Logic' and 'LLM Safety'. These experiences have not only sharpened my technical skills but also broadened my perspective on the ethical and practical implications of AI.
 
-I am an avid musician. I play the piano and love to improvise and compose my own music. 
+I still keep myself immersed in various technological challenges. My background in engineering and math, coupled with hands-on experiences in EDA at Cadence Design Systems and AI-driven interventions, has equipped me to innovate at the cutting edge of AI applications in software engineering and beyond. Expect to see more in my blogs about these adventures and discoveries in AI and software development.
 
-I am also deeply interested in exploring ways to tackle the SDGs using technology. I believe that technology has the potential to solve all the major social and ecological problems that exist in the world, and I strive to find it. 
+My passion for music remains a constant companion. As an avid pianist, the art of improvisation and composition continues to be a source of joy and creativity in my life.
 
-### Experience
-- EDA
-- NLP
-- IoT
-- DLT
-- Robotics
+One of my deep-seated interests is in leveraging technology to address Sustainable Development Goals (SDGs). I firmly believe in the transformative power of technology to address pressing social and ecological challenges, and I'm dedicated to contributing to this field.
+
+### Current Focus and Interests
+- Natural Language Processing
+- Data Science and AI
+- Software Engineering in AI Applications
+- Reinforcement Learning in Large Language Models
+- AI Safety and Ethical AI
+- Sustainable Development through Technology
+- Deep Learning in Embedded Systems
+- Cybersecurity and Human Cognition
 
 
 ### Musings
 - Edge Computing
 - Low Power Neural Processing
 - Cybersecurity
-- Human Cognition
 - Technology Entrepreneurship
 - Sustainable Development
 - Music Composition
 
-So stay tuned for my magical journey through the oceans of machine learning, music and technology innovation in general. I hope to share my experiences, projects and ideas. Sometimes, they might just be monologues of my take in the philosophy of life (if you'd go for that sort of thing :P)
+Join me on this exciting journey through the vast seas of machine learning, music, and technological innovation. Through my blog, I aim to share my experiences, projects, and thoughts, sometimes even wandering into the philosophy of life and technology.
 
 "So long! And thanks for all the fish!"
 
-What else do you need? The answer to life, universe and everything is 42.14378291...
+Remember, the universe is vast, and the possibilities are endless. Here's to exploring them together - and yes, sometimes the answer might just be as intriguing as 42.14378291…
 
 
