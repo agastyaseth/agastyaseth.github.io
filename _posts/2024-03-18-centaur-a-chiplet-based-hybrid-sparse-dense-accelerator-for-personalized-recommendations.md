@@ -70,15 +70,15 @@ The paper presents an in-depth workload characterization of DNN-based personaliz
   - These layers can consume up to several hundreds of GBs of memory, particularly in inference mode.
   - The aggregate size of gathered embeddings for inference is much smaller than the size of embedding tables, resulting in extremely sparse operations with low spatial/temporal locality.
   - CPUs fail to maximize memory-level parallelism, thus significantly under-utilizing memory bandwidth for sparse embedding gather operations.
-  - The characterization shows that embedding layers can account for a significant fraction of inference time, up to 79%, becoming a prominent performance bottleneck 【3†source】.
+  - The characterization shows that embedding layers can account for a significant fraction of inference time, up to 79%, becoming a prominent performance bottleneck.
 
 - **Multi-layer Perceptrons (MLPs):**
   - Despite the smaller relative size compared to embedding layers, MLP layers still account for a non-trivial portion of runtime, especially with smaller batch sizes.
-  - The inference latency of MLP layers increases with larger batch sizes due to the cost of uploading weights on-chip, although they exhibit low last-level cache (LLC) miss rates and low misses per thousand instructions (MPKI) compared to embedding layers【3†source】.
+  - The inference latency of MLP layers increases with larger batch sizes due to the cost of uploading weights on-chip, although they exhibit low last-level cache (LLC) miss rates and low misses per thousand instructions (MPKI) compared to embedding layers.
 
 - **End-to-End Inference Time:**
   - With varying input batch sizes from 1 to 128, the embedding layers showed a significant fraction of the execution time compared to MLP layers and others.
-  - MLP layers experience a slower increase in execution time with larger batch sizes compared to embedding layers, except for DLRM(6), which has a compute-intensive MLP layer【3†source】.
+  - MLP layers experience a slower increase in execution time with larger batch sizes compared to embedding layers, except for DLRM(6), which has a compute-intensive MLP layer.
 
 - **Caching Efficiency:**
   - Embedding layers' LLC miss rate is sensitive to the input batch size, with an increasing number of misses as the batch size is increased. 
