@@ -134,7 +134,7 @@ mark, .hl { background: linear-gradient(transparent 55%, var(--mark-bg) 55%); co
 .links-row a:hover { background: var(--mark-bg); }
 
 .fig { margin: 0; }
-.fig img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 1px solid var(--rule-strong); background: var(--paper); }
+.fig img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--rule-strong); background: var(--paper); }
 .fig figcaption, .caption { font: 400 11px/1.5 var(--mono); color: var(--ink-3); margin-top: 8px; letter-spacing: 0.02em; }
 .fig figcaption b, .caption b { color: var(--ink); font-weight: 500; }
 
