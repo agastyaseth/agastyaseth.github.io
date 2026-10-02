@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 'Smart India Hackathon - 2019 '
 date: '2019-07-12'
-image: img/download (1).png
+image: /img/smart-india-hackathon.png
 bigimg: /img/IMG_20190712_211324.jpg
 tags:
   - hardware

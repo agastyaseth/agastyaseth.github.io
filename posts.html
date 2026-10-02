@@ -1,0 +1,46 @@
+---
+layout: page
+title: Posts
+subtitle: Paper reviews, project reports, and the occasional detour into philosophy.
+permalink: /posts/
+plain: true
+---
+
+{%- comment -%} Tags sorted by post count, most used first. {%- endcomment -%}
+{%- capture ranked -%}{%- for t in site.tags -%}{{ t[1].size | plus: 1000 }}~{{ t[0] }}{%- unless forloop.last -%}|{%- endunless -%}{%- endfor -%}{%- endcapture -%}
+{%- assign ranked = ranked | split: "|" | sort | reverse -%}
+
+{%- capture tag_buttons -%}
+{%- for entry in ranked -%}
+  {%- assign parts = entry | split: "~" -%}
+  {%- assign n = parts[0] | minus: 1000 -%}
+  <button type="button" data-tag="{{ parts[1] | escape }}">{{ parts[1] | downcase }}<span class="count">{{ n }}</span></button>|||
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign tag_buttons = tag_buttons | split: "|||" -%}
+
+<div class="tag-filter" role="group" aria-label="Filter by tag">
+  <button type="button" class="is-active" data-tag="">all<span class="count">{{ site.posts.size }}</span></button>
+  {% for b in tag_buttons limit: 10 %}{{ b }}{% endfor %}
+</div>
+{% if tag_buttons.size > 10 %}
+<details class="tag-more">
+  <summary>{{ tag_buttons.size | minus: 10 }} more tags</summary>
+  <div class="tag-filter" role="group" aria-label="More tags">
+    {% for b in tag_buttons offset: 10 %}{{ b }}{% endfor %}
+  </div>
+</details>
+{% endif %}
+
+{%- assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+{%- for year in by_year %}
+<section class="archive-year">
+  <h2>{{ year.name }}</h2>
+  <ol class="rows">
+    {%- for p in year.items %}
+      {% include post-row.html post=p %}
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}
+<p class="archive-empty" hidden>No posts with that tag.</p>

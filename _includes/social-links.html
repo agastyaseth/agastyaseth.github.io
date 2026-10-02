@@ -1,0 +1,17 @@
+{%- comment -%} Renders site.social-network-links as icon links. {%- endcomment -%}
+<ul class="social">
+  {%- for link in site.social-network-links -%}
+    {%- assign key = link[0] -%}
+    {%- assign val = link[1] -%}
+    {%- case key -%}
+      {%- when "email" -%}{%- assign href = "mailto:" | append: val -%}{%- assign label = "Email" -%}
+      {%- when "github" -%}{%- assign href = "https://github.com/" | append: val -%}{%- assign label = "GitHub" -%}
+      {%- when "linkedin" -%}{%- assign href = "https://www.linkedin.com/in/" | append: val -%}{%- assign label = "LinkedIn" -%}
+      {%- when "twitter" -%}{%- assign href = "https://x.com/" | append: val -%}{%- assign label = "X / Twitter" -%}
+      {%- when "soundcloud" -%}{%- assign href = "https://soundcloud.com/" | append: val -%}{%- assign label = "SoundCloud" -%}
+      {%- when "spotify" -%}{%- assign href = "https://open.spotify.com/user/" | append: val -%}{%- assign label = "Spotify" -%}
+      {%- when "rss" -%}{%- assign href = "/feed.xml" | relative_url -%}{%- assign label = "RSS feed" -%}
+    {%- endcase %}
+  <li><a href="{{ href }}" title="{{ label }}" aria-label="{{ label }}"{% unless key == "email" or key == "rss" %} rel="me noopener"{% endunless %}>{% include icon.html name=key %}</a></li>
+  {%- endfor %}
+</ul>

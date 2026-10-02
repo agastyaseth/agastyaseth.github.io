@@ -1,0 +1,19 @@
+# Homepage publications. Add `url:` to make a title clickable.
+- title: "MALLS: Multi-Agent LLMs for Synthetic Hardware Vulnerability Generation and Detection"
+  venue: "ICCD 2025"
+
+- title: "Focus Session: Do Agentic LLMs Change the Paradigm of Hardware Test Generation?"
+  venue: "DATE 2026"
+
+- title: "UnSeenTimeQA: Time-Sensitive Question-Answering Beyond LLMs' Memorization"
+  venue: "ACL 2025"
+
+- title: "The Art of Defending: Evaluating LLM Defense Strategies on Safety and Over-Defensiveness"
+  venue: "Findings of ACL 2024"
+  url: "/2024-01-15-the-art-of-defending-a-systematic-evaluation-and-analysis-of-llm-defense-strategies-on-safety-and-over-defensiveness/"
+
+- title: "REACT: RL-Based Adaptive ECG Anonymization and Privacy Threat Mitigation"
+  venue: "COINS 2025"
+
+- title: "LLM-DATA: LLM-Aided Design and Test Automation for Rapid Circuit and Systems Development"
+  venue: "IEEE TCAD (under review)"

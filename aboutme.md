@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: “I have a million ideas. They all point to certain death.” - Marvin
+subtitle: Engineer, researcher, pianist, occasional philosopher.
 ---
 
 Greetings! I'm Agastya Seth, a Staff AI Engineer at Synopsys in Sunnyvale, CA, where I'm the tech lead for agentic AI in the HAV R&D group. I build AI agents that do real engineering work: planning, running, and debugging hardware verification flows that can take 20 to 30 hours per run.
@@ -22,12 +22,8 @@ My passion for music remains a constant companion. As an avid pianist, the art o
 - LLMs for hardware design and verification
 - Reinforcement learning for LLMs
 
-### Selected Publications
-- **MALLS:** Multi-Agent LLMs for Synthetic Hardware Vulnerability Generation and Detection (ICCD 2025)
-- **Focus Session:** Do Agentic LLMs Change the Paradigm of Hardware Test Generation? (DATE 2026)
-- **UnSeenTimeQA:** Time-Sensitive Question-Answering Beyond LLMs' Memorization (ACL 2025)
-- **The Art of Defending:** Evaluating LLM Defense Strategies on Safety and Over-Defensiveness (Findings of ACL 2024)
-- **REACT:** RL-Based Adaptive ECG Anonymization and Privacy Threat Mitigation (COINS 2025)
+### Publications
+See the [publications list](/#publications) on the homepage, or grab the [resume](/resume.pdf).
 
 ### Musings
 - Edge Computing
@@ -35,8 +31,12 @@ My passion for music remains a constant companion. As an avid pianist, the art o
 - Sustainable Development
 - Music Composition
 
-Grab my [resume](/resume.pdf) for the full picture. Through this blog I share projects, experiments, and the occasional wander into the philosophy of life and technology.
+Through this blog I share projects, experiments, and the occasional wander into the philosophy of life and technology.
 
-"So long! And thanks for all the fish!"
+> I have a million ideas. They all point to certain death.
+>
+> Marvin, the Paranoid Android
+
+So long, and thanks for all the fish!
 
 Remember, the universe is vast, and the possibilities are endless. Here's to exploring them together, and yes, sometimes the answer might just be as intriguing as 42.14378291…

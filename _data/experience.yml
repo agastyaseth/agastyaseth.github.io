@@ -1,0 +1,41 @@
+# Homepage experience timeline, newest first.
+- org: "Synopsys"
+  role: "Staff AI Engineer, HAV R&D (Tech Lead, Agentic AI)"
+  dates: "Jun 2025 - Present"
+  place: "Sunnyvale, CA"
+  note: "Agentic AI for AgentEngineer and Autopilot: orchestration, chat engine, guardrails, evals."
+
+- org: "Arizona State University"
+  role: "M.S. Computer Science (GPA 4.0), Graduate Research Assistant, ACME Lab"
+  dates: "Graduated May 2025"
+  place: "Tempe, AZ"
+  note: "Research on LLM safety, time-sensitive QA, and LLMs for hardware design."
+
+- org: "Cadence Design Systems"
+  role: "Machine Learning Intern, Cerebrus R&D"
+  dates: "May 2024 - Aug 2024"
+  place: "San Jose, CA"
+  note: "Predicted timing and power directly from Verilog RTL using code-AST features."
+
+- org: "Cadence Design Systems"
+  role: "Software Engineer II, Quantus R&D"
+  dates: "Jul 2020 - Jul 2023"
+  place: "Noida, India"
+  note: "High-performance C++ graph and geometry algorithms for parasitic extraction; early AI tooling."
+
+- org: "LiqVid / Shiv Nadar University"
+  role: "NLP Research Scientist (part-time)"
+  dates: "Aug 2020 - Sep 2021"
+  place: "Remote"
+  note: "Transformer-based essay scoring for publishers including Wiley (0.82 kappa)."
+
+- org: "ViSenze"
+  role: "Data Science Intern"
+  dates: "Jan 2020 - Jul 2020"
+  place: "Singapore"
+  note: "Fashion-attribute CNNs (+15 to 20% F1) and a data sufficiency pipeline (10x faster iteration)."
+
+- org: "Shiv Nadar University"
+  role: "B.Tech. Electronics and Communication Engineering, Minor in Mathematics"
+  dates: "Graduated Jun 2020"
+  place: "Greater Noida, India"

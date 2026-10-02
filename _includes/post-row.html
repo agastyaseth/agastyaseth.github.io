@@ -1,0 +1,11 @@
+{%- assign p = include.post -%}
+<li class="row post-row archive-item" data-tags="{{ p.tags | join: '|' | escape }}">
+  <time class="row-key" datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%Y-%m-%d" }}</time>
+  <div class="row-main">
+    <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    {% if p.subtitle %}<p>{{ p.subtitle }}</p>{% endif %}
+    {% if p.tags.size > 0 %}
+    <ul class="tags">{% for tag in p.tags limit: 3 %}<li><a class="tag" href="{{ '/posts/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag | downcase | replace: ' ', '-' }}</a></li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+</li>

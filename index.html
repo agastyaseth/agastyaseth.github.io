@@ -1,73 +1,99 @@
 ---
-layout: page
+layout: base
 title: Home
-subtitle: Here's what I've been up to...
-subtitle: The answer to life, universe and everything is 42.14378291...
 use-site-title: true
 ---
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+{%- assign gh = site.social-network-links.github -%}
+{%- assign li = site.social-network-links.linkedin -%}
+{%- assign mail = site.social-network-links.email -%}
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
+<section class="masthead">
+  <div class="wrap">
+    <div class="mast-grid">
+      <div>
+        <h1 class="name">Agastya Seth</h1>
+        <p class="role">Staff AI Engineer. Agentic systems, LLM evals, and AI infrastructure for chip design.</p>
+        <p class="lede">
+          I build AI agents that do real engineering work. At Synopsys I lead agentic AI for hardware-assisted
+          verification, where a single tool run can take a day and the agents have to plan, wait, recover, and report on their own.
+        </p>
+        <p class="lede">
+          Before that I wrote C++ geometry code at Cadence, built NLP systems, and did an M.S. at ASU on LLM safety
+          and LLMs for hardware. I also play piano, mostly improvising.
+        </p>
+        <div class="links-row">
+          <a href="{{ '/resume.pdf' | relative_url }}">{% include icon.html name="resume" %} Resume (PDF)</a>
+          <a href="https://github.com/{{ gh }}" rel="me noopener">{% include icon.html name="github" %} github/{{ gh }}</a>
+          <a href="https://www.linkedin.com/in/{{ li }}" rel="me noopener">{% include icon.html name="linkedin" %} in/{{ li }}</a>
+          <a href="mailto:{{ mail }}">{% include icon.html name="email" %} {{ mail }}</a>
+        </div>
       </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
+      <figure class="fig">
+        <img src="{{ site.headshot | relative_url }}" alt="Portrait of Agastya Seth" width="220" height="220">
+      </figure>
     </div>
+  </div>
+</section>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+
+<section class="sheet-section" id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <header class="sec-head"><span class="sec-num">1</span><h2 id="work-h">Selected work</h2><span class="aside"></span></header>
+    <ul class="features sec-body">
+      {% for h in site.data.highlights %}
+      <li>
+        <strong>{% if h.url %}<a href="{{ h.url | relative_url }}">{{ h.title }}</a>{% else %}{{ h.title }}{% endif %}</strong>
+        <span class="feat-meta">{{ h.meta }}</span>
+        <p>{{ h.text }}</p>
+      </li>
       {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+    </ul>
+  </div>
+</section>
 
-   </article>
-  {% endfor %}
-</div>
+<section class="sheet-section" id="experience" aria-labelledby="exp-h">
+  <div class="wrap">
+    <header class="sec-head"><span class="sec-num">2</span><h2 id="exp-h">Experience</h2><span class="aside"><a href="{{ '/resume.pdf' | relative_url }}">Full resume</a></span></header>
+    <ol class="rows sec-body">
+      {% for e in site.data.experience %}
+      <li class="row">
+        <span class="row-key">{{ e.dates }}</span>
+        <div class="row-main">
+          <h3>{{ e.org }}</h3>
+          <p>{{ e.role }}</p>
+        </div>
+        <span class="row-side">{{ e.place }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+<section class="sheet-section" id="publications" aria-labelledby="pub-h">
+  <div class="wrap">
+    <header class="sec-head"><span class="sec-num">3</span><h2 id="pub-h">Publications</h2><span class="aside">{{ site.data.publications.size }} papers</span></header>
+    <ol class="rows sec-body">
+      {% for p in site.data.publications %}
+      <li class="row">
+        <span class="row-key venue">{{ p.venue }}</span>
+        <div class="row-main">
+          <h3>{% if p.url %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sheet-section" id="posts" aria-labelledby="posts-h">
+  <div class="wrap">
+    <header class="sec-head"><span class="sec-num">4</span><h2 id="posts-h">Posts</h2><span class="aside"><a href="{{ '/posts/' | relative_url }}">All {{ site.posts.size }}</a></span></header>
+    <ol class="rows sec-body">
+      {% for post in site.posts limit: 6 %}
+        {% include post-row.html post=post %}
+      {% endfor %}
+    </ol>
+    <div class="sec-body"><a class="more-link" href="{{ '/posts/' | relative_url }}">Browse all {{ site.posts.size }} posts by tag</a></div>
+  </div>
+</section>

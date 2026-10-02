@@ -1,0 +1,27 @@
+# Homepage "Selected work" list. `meta` is the short mono line; `url` is optional.
+- title: "Agents that run chip-design flows"
+  meta: "Synopsys · 2025 to now"
+  text: "An orchestrator that dispatches task agents across 20 to 30 hour EDA runs, and an agent chat engine used by about 800 engineers a month."
+
+- title: "Evaluating LLM defenses"
+  meta: "ASU · Findings of ACL 2024"
+  text: "A systematic look at how LLM safety defenses trade off real protection against over-refusing harmless requests."
+  url: "/2024-01-15-the-art-of-defending-a-systematic-evaluation-and-analysis-of-llm-defense-strategies-on-safety-and-over-defensiveness/"
+
+- title: "LLMs for hardware security and test"
+  meta: "ASU · ICCD 2025, DATE 2026"
+  text: "Multi-agent LLMs that generate and detect synthetic hardware vulnerabilities, and a focus session on agentic test generation."
+
+- title: "Parasitic extraction at scale"
+  meta: "Cadence · 2020 to 2023"
+  text: "High-performance C++ graph and geometry algorithms for Quantus, including a comparison engine for multi-million-net designs."
+
+- title: "Automated essay scoring"
+  meta: "LiqVid / SNU · 2020 to 2021"
+  text: "Fine-tuned DistilBERT plus an explainable LSTM ensemble for publishers including Wiley, reaching 0.82 kappa in production."
+  url: "/2022-02-18-liqvid-snu-two-stage-automated-essay-scoring-aes/"
+
+- title: "Smart India Hackathon winner"
+  meta: "2019 · hardware edition"
+  text: "Won the national hackathon's hardware edition, out of roughly 300,000 participants."
+  url: "/2019-07-12-smart-india-hackathon-winner/"

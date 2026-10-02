@@ -6,7 +6,7 @@ title: >-
   Neural Networks
 subtitle: Paper Review
 date: '2024-02-05'
-image: img/eyeriss-2
+image: /img/eyeriss-2.png
 tags:
   - ML Accelerators
   - CNN
