@@ -15,5 +15,5 @@ tags:
 ### GitHub
 [https://github.com/agastyaseth/mimo-channel-estimation](https://github.com/agastyaseth/mimo-channel-estimation)
 
-<embed src="https://agastyaseth.wiki/Documents/thesis_2.pdf" width="100%" height="800" 
+<embed src="/Documents/thesis_2.pdf" width="100%" height="800" 
  type="application/pdf">
