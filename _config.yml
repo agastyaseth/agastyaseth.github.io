@@ -6,9 +6,8 @@ title: Agastya Seth
 tagline: "Staff AI Engineer · Agentic Systems, LLM Evals, AI Infrastructure"
 description: "Agastya Seth is a Staff AI Engineer building agentic systems, LLM evals, and AI infrastructure."
 
-# Square headshot shown in the homepage hero and used for social cards.
-# Drop a photo at img/headshot.jpg and set this to "/img/headshot.jpg".
-headshot: "/img/avatar-icon-email.png"
+# Portrait (4:5) shown in the homepage hero and used for social cards.
+headshot: "/img/headshot.jpg"
 
 # --- Navigation --- #
 navbar-links:
