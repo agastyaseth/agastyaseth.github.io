@@ -6,7 +6,7 @@
 
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://agastyaseth.wiki"
+url: "https://agastyaseth.tech"
 baseurl: "/"
 
 # If you are building a GitHub project page then use these settings:
@@ -27,8 +27,8 @@ description: Don't Panic!
 navbar-links:
   
   # Ongoing Projects:
-  #   - LiqVid <> SNU AES Project: "https://agastyaseth.wiki/2022-02-18-liqvid-snu-two-stage-automated-essay-scoring-aes/"
-  #   - Bhashini Initiative: "https://agastyaseth.wiki/2022-10-12-contributing-to-the-bhashini-initiative/"
+  #   - LiqVid <> SNU AES Project: "https://agastyaseth.tech/2022-02-18-liqvid-snu-two-stage-automated-essay-scoring-aes/"
+  #   - Bhashini Initiative: "https://agastyaseth.tech/2022-10-12-contributing-to-the-bhashini-initiative/"
 #     - Big Data Coursework: "https://github.com/agastyaseth/BDA492"
   Blog: "blog"
   Resume: "resume.pdf"
